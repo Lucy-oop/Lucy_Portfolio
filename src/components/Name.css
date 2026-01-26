@@ -1,0 +1,10 @@
+.name{
+  font-size: 80px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: bold;
+}
+.role {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: lighter;
+}
