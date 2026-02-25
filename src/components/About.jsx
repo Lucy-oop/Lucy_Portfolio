@@ -18,15 +18,11 @@ function About() {
 
 
   <p>
-    Welcome to my creative coding space. I’m a Junior Frontend Developer who has built 28+ projects driven by curiosity,
-    persistence, and a love for problem-solving.
+    Welcome to my creative coding space. I’m a Junior Frontend Developer who enjoy turning ideas into responsive, interactive experiences and find real happiness in debugging and seeing my
+    code come to life.
   </p>
 
-  <p>
-    I enjoy turning ideas into responsive, interactive experiences and find real happiness in debugging and seeing my
-    code come to life. Every project helps me grow, learn, and become a better developer.
-  </p>
-          
+      
         </div>
 
         <div className="ibelieve">

@@ -19,7 +19,7 @@ function Skills() {
                         <li>HTML</li>
                         <li>CSS3</li>
                         <li>JavaScript (ES6+)</li>
-                        <li>TypeScript</li>
+                        <li>TypeScript (Basic)</li>
                     </ul>
                 </div>
 
@@ -37,6 +37,7 @@ function Skills() {
                     <h2>Backend & Tools</h2>
                     <ul>
                         <li>Node.js</li>
+                        <li>Express.js</li>
                         <li>Firebase</li>
                         <li>Nodemon(dev tool for Node)</li>
                     </ul>

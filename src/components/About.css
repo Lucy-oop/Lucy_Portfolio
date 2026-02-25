@@ -1,56 +1,59 @@
 .about-container {
-    position: relative;
-    z-index: 5;
-    margin-top: 30px;
-    display: flex;
-    margin-left: 120px;
-    padding-left: 12px;
-
+  position: relative;
+  z-index: 5;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 120px;
+  padding-left: 12px;
 }
-.name{
-  font-size: 80px;
+
+.name {
+  font-size: clamp(56px, 6vw, 80px);
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-weight: bold;
 }
+
 .role {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    font-weight: lighter;
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: lighter;
 }
 
 .bio-info {
-    margin-top: 40px;
-    line-height: 30px;
-    font-weight: lighter;
-    font-size: 16px;
+  margin-top: 40px;
+  line-height: 30px;
+  font-weight: lighter;
+  font-size: clamp(14px, 1.2vw, 16px);
+}
 
-}
 .bio-info p {
-     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: lighter;
-    margin-right: 60px;
-    margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: lighter;
+  margin-right: 60px;
+  margin-top: 20px;
 }
+
 /* i believe p  */
 .ibelieve p {
-    margin-top: 40px;
-    position: fixed;
-    bottom:5%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    font-weight: lighter;
-    margin-right: 20%;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 5%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(12px, 1.1vw, 14px);
+  font-weight: lighter;
+  margin-right: 20%;
 }
+
 /* ✅ Hello title styling */
 .helloTitle {
   font-family: "Alumni Sans Pinstripe", sans-serif;
-  font-size: clamp(28px, 4vw, 46px);
+  font-size: clamp(24px, 3.8vw, 46px);
   font-weight: 600;
   line-height: 1.38;
   margin: 26px 0 10px;
   max-width: 900px;
-  word-spacing: 6px; 
+  word-spacing: 6px;
 }
 
 .realName,
@@ -63,16 +66,17 @@
   cursor: pointer;
   transition: transform 220ms ease, opacity 220ms ease, text-shadow 220ms ease;
 }
+
 .realName {
   color: var(--color4);
-  opacity: 0.65; 
-}
-.nickName {
-  color: var(--color4);
-  opacity: 2; 
-  text-shadow: 0 0 18px rgba(248, 247, 247, 0.18);
+  opacity: 0.65;
 }
 
+.nickName {
+  color: var(--color4);
+  opacity: 2;
+  text-shadow: 0 0 18px rgba(248, 247, 247, 0.18);
+}
 
 .realName::after,
 .nickName::after {
@@ -91,17 +95,15 @@
 /* ✅ Cute hover: small jump + underline + glow */
 .realName:hover,
 .nickName:hover {
- transform: translateY(-2px);
+  transform: translateY(-2px);
   opacity: 1;
-text-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
-
+  text-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
 }
 
 .realName:hover::after,
 .nickName:hover::after {
   width: 100%;
 }
-
 
 /* CTA row */
 .ctaRow {
@@ -114,7 +116,7 @@ text-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
 /* Explore link (glow + underline) */
 .ctaLink {
   font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
+  font-size: clamp(12px, 1.1vw, 14px);
   text-decoration: none;
   color: var(--color4);
   position: relative;
@@ -157,7 +159,7 @@ text-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
   align-items: center;
   justify-content: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 13px;
+  font-size: clamp(12px, 1.05vw, 13px);
   text-decoration: none;
   padding: 10px 18px;
   border-radius: 18px;
@@ -173,39 +175,37 @@ text-shadow: 0 0 22px rgba(255, 255, 255, 0.22);
   box-shadow: 0 0 25px var(--color4);
 }
 
-
-
 /* about social-icons */
 .social-icons a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: 1px solid var(--color4);
-    font-size: 20px;
-    border-radius: 50%;
-    margin: 3rem 1.5rem 3rem;
-    transition: 0.3s ease;
-    text-decoration: none;
-    color: var(--color4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--color4);
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 3rem 1.5rem 3rem;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: var(--color4);
+}
 
-  }
-  .social-icons a:hover{
-    transform: scale(1.3) translateY(-5px);
-    background: var(--color3);
-    box-shadow: 0 0 25px var(--color4);
-  }
-.social-icons{
-    position: fixed;
-    bottom:1%;
-    right: 1%;
+.social-icons a:hover {
+  transform: scale(1.3) translateY(-5px);
+  background: var(--color3);
+  box-shadow: 0 0 25px var(--color4);
+}
+
+.social-icons {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
 }
 
 /* light mode switch */
-
 body.light-mode .ctaLink,
 body.light-mode .ctaBtn,
 body.light-mode .realName,
@@ -247,47 +247,73 @@ body.light-mode .social-icons a:hover {
   background: white;
   box-shadow: 0 0 25px black;
 }
+
+/* ✅ Responsive (font-size only changes) */
 @media (max-width: 960px) {
   .about-container {
     margin-left: 120px;
     padding-left: 12px;
     flex-direction: column;
   }
-    .name {
-    font-size: 60px;        
+
+  .name {
+    font-size: clamp(44px, 6.2vw, 60px);
     line-height: 1;
   }
 
-
   .bio-info p {
-    font-size: 14px;
+    font-size: clamp(13px, 1.8vw, 14px);
     margin-right: 30px;
   }
+
   .helloTitle {
-    font-size: clamp(22px, 3.2vw, 36px);
+    font-size: clamp(20px, 3.6vw, 34px);
     word-spacing: 4px;
   }
-  
+
+  .role {
+    font-size: clamp(12px, 1.6vw, 13px);
+  }
+
+  .ibelieve p {
+    font-size: clamp(12px, 1.6vw, 13px);
+  }
 }
+
 @media (max-width: 600px) {
   .about-container {
     margin-left: 100px;
     padding-left: 10px;
   }
-   .name {
-    font-size: 46px;
+
+  .name {
+    font-size: clamp(38px, 9vw, 46px);
     line-height: 1;
   }
 
   .bio-info p {
-    font-size: 13px;
+    font-size: clamp(12px, 3.6vw, 13px);
     margin-right: 0;
   }
 
   .helloTitle {
-    font-size: 26px;
+    font-size: clamp(22px, 6.5vw, 26px);
     word-spacing: 2px;
   }
+
+  .role {
+    font-size: clamp(11px, 3.2vw, 12px);
+  }
+
+  .ibelieve p {
+    font-size: clamp(11px, 3.2vw, 12px);
+  }
+
+  .ctaLink {
+    font-size: clamp(12px, 3.4vw, 13px);
+  }
+
+  .ctaBtn {
+    font-size: clamp(12px, 3.2vw, 13px);
+  }
 }
-
-
