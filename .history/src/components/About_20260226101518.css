@@ -320,9 +320,11 @@ body.light-mode .social-icons a:hover {
   .social-icons {
     position: static;      /* remove fixed */    /* space below ibelieve */
     display: flex;
+    flex-direction: row; /* vertical column */
+    align-items: flex-start; /* align left */
   }
 
   .social-icons a {
-    margin-left: 10px; /* spacing between icons */
+    margin: 20px 0; /* spacing between icons */
   }
 }

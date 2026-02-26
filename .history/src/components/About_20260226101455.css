@@ -318,11 +318,14 @@ body.light-mode .social-icons a:hover {
   }
 
   .social-icons {
-    position: static;      /* remove fixed */    /* space below ibelieve */
+    position: static;      /* remove fixed */
+    margin-top: 40px;      /* space below ibelieve */
     display: flex;
+    flex-direction: ; /* vertical column */
+    align-items: flex-start; /* align left */
   }
 
   .social-icons a {
-    margin-left: 10px; /* spacing between icons */
+    margin: 10px 0; /* spacing between icons */
   }
 }

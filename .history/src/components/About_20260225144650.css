@@ -316,13 +316,4 @@ body.light-mode .social-icons a:hover {
   .ctaBtn {
     font-size: clamp(12px, 3.2vw, 13px);
   }
-
-  .social-icons {
-    position: static;      /* remove fixed */    /* space below ibelieve */
-    display: flex;
-  }
-
-  .social-icons a {
-    margin-left: 10px; /* spacing between icons */
-  }
 }
