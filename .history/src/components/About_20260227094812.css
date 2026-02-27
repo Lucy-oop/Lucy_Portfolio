@@ -286,7 +286,7 @@ body.light-mode .social-icons a:hover {
   }
 
   .about-container {
-    margin-left: 100px;
+    margin-left: 80px;
     padding-left: 10px;
   }
 
@@ -329,6 +329,7 @@ body.light-mode .social-icons a:hover {
   .social-icons {
     position: static;
     display: flex;
+    flex-direction: column;  
     gap: 12px;
     margin-top: 18px;
     align-items: flex-start;

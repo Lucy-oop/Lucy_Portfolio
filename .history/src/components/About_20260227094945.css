@@ -331,7 +331,7 @@ body.light-mode .social-icons a:hover {
     display: flex;
     gap: 12px;
     margin-top: 18px;
-    align-items: flex-start;
+
   }
 
   .social-icons a {

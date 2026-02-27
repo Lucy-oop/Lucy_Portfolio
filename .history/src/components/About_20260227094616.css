@@ -311,10 +311,6 @@ body.light-mode .social-icons a:hover {
 
   .ibelieve p {
     font-size: clamp(11px, 3.2vw, 12px);
-      position: static;  
-    bottom: auto;
-    margin-right: 0;    
-    width: 100%;
     
   }
 
@@ -327,15 +323,11 @@ body.light-mode .social-icons a:hover {
   }
 
   .social-icons {
-    position: static;
+    position: static;      /* remove fixed */    /* space below ibelieve */
     display: flex;
-    gap: 12px;
-    margin-top: 18px;
-    align-items: flex-start;
   }
 
   .social-icons a {
-    margin: 0;              
-    padding: 14px;          
+    margin-left: 10px; /* spacing between icons */
   }
 }

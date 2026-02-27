@@ -311,11 +311,11 @@ body.light-mode .social-icons a:hover {
 
   .ibelieve p {
     font-size: clamp(11px, 3.2vw, 12px);
-      position: static;  
+    position: static;   
     bottom: auto;
-    margin-right: 0;    
+    margin-right: 0;   
     width: 100%;
-    
+  }
   }
 
   .ctaLink {
@@ -327,15 +327,16 @@ body.light-mode .social-icons a:hover {
   }
 
   .social-icons {
-    position: static;
+   position: static;
     display: flex;
+    flex-direction: column;  
     gap: 12px;
     margin-top: 18px;
     align-items: flex-start;
   }
 
   .social-icons a {
-    margin: 0;              
+        margin: 0;              /* ✅ remove huge margins */
     padding: 14px;          
   }
 }
