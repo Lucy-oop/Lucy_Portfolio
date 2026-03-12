@@ -97,7 +97,7 @@ body.light-mode .project .pname::after {
   top: clamp(150px, 20vh, 250px);
   left: clamp(20px, 8vw, 200px);
   width: clamp(280px, 40vw, 680px);
-  aspect-ratio: 1 / 1; /* Perfect Square */
+  aspect-ratio: 1 / 1; /* ✅ Changed this to make it a perfect square */
   height: auto;
   border-radius: 16px;
   overflow: hidden;
@@ -145,17 +145,14 @@ body.light-mode .cornerPreview.show {
 /* =========================================
    MEDIA QUERIES
    ========================================= */
-
-/* ✅ Hide the hover preview entirely on tablets and mobile devices */
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   .cornerPreview,
   .cornerPreview.show {
     display: none !important;
   }
 }
 
-/* Adjust text sizing for tablets and mobile */
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
   .project {
     margin-bottom: 18px;
   }
@@ -175,9 +172,18 @@ body.light-mode .cornerPreview.show {
     margin-left: 6px;
     opacity: 0.85;
   }
+
+  .cornerPreview {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(40px) rotateX(15deg) scale(0.9);
+  }
+
+  .cornerPreview.show {
+    transform: translateX(-50%) translateY(0) rotateX(0deg) scale(1);
+  }
 }
 
-/* Desktop layout constraints */
 @media (min-width: 1025px) {
   .allproject {
     max-width: min(52ch, 55%);

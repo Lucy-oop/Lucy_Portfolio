@@ -3,8 +3,7 @@ import "./Projects.css";
 import Name from "./Name";
 
 // ✅ images (reuse safely)
-import nexusImg from "./mini/nexus.png";
-import roastImg from "./mini/roast.png";
+import 
 import momKitchen from "./mini/momkitchen.png";
 import kfcImg from "./mini/kfc.png";
 import ecommerceImg from "./mini/ecommerce.png";

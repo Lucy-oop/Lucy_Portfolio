@@ -3,8 +3,6 @@ import "./Projects.css";
 import Name from "./Name";
 
 // ✅ images (reuse safely)
-import nexusImg from "./mini/nexus.png";
-import roastImg from "./mini/roast.png";
 import momKitchen from "./mini/momkitchen.png";
 import kfcImg from "./mini/kfc.png";
 import ecommerceImg from "./mini/ecommerce.png";
@@ -17,18 +15,18 @@ import jobTracker from "./mini/jobtracker.png"
 
 const projects = [
      {
-    title: "Nexus SaaS",
-    href: "https://lucy-oop.github.io/nexus-saas/",
-    info: "React, Tailwind CSS, Framer Motion, Recharts, Vite",
+    title: "Job Tracker Dashboard",
+    href: "https://lucy-oop.github.io/job-tracker-dashboard/",
+    info: "React,Tailwind CSS, Node.js ,Lucide Icons ,Express,data Base",
     responsive: true,
-    img: nexusImg,
+    img: jobTracker,
   },
      {
-     title: "RoastMyLanding",
-    href: "https://roast-my-landing-xi.vercel.app/",
-    info: "Next.js 16, TypeScript, Tailwind, Cheerio, API Routes",
+    title: "Job Tracker Dashboard",
+    href: "https://lucy-oop.github.io/job-tracker-dashboard/",
+    info: "React,Tailwind CSS, Node.js ,Lucide Icons ,Express,data Base",
     responsive: true,
-    img: roastImg,
+    img: jobTracker,
   },
     {
     title: "Job Tracker Dashboard",
