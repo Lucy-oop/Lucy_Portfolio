@@ -18,7 +18,7 @@ import jobTracker from "./mini/jobtracker.png"
 
 const projects = [
      {
-    title: "Portfolio AI Assistant",
+    title: "Lucy's portfolio AI Assiatant",
     href: "https://ai-portfolio-chatbot-cyan.vercel.app",
     info: "React, Tailwind CSS,Gemini API,TypeScript",
     responsive: true,

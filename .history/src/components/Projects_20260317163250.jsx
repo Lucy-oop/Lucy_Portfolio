@@ -18,13 +18,6 @@ import jobTracker from "./mini/jobtracker.png"
 
 const projects = [
      {
-    title: "Portfolio AI Assistant",
-    href: "https://ai-portfolio-chatbot-cyan.vercel.app",
-    info: "React, Tailwind CSS,Gemini API,TypeScript",
-    responsive: true,
-    img: lucyAI,
-  },
-     {
     title: "Nexus SaaS",
     href: "https://lucy-oop.github.io/nexus-saas/",
     info: "React, Tailwind CSS, Framer Motion, Recharts, Vite",

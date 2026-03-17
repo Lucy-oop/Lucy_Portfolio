@@ -3,7 +3,7 @@ import "./Projects.css";
 import Name from "./Name";
 
 // ✅ images (reuse safely)
-import lucyAI from "./mini/lucyAi.png"
+import 
 import nexusImg from "./mini/nexus.png";
 import roastImg from "./mini/roast.png";
 import momKitchen from "./mini/momkitchen.png";
@@ -17,13 +17,6 @@ import jobTracker from "./mini/jobtracker.png"
 
 
 const projects = [
-     {
-    title: "Portfolio AI Assistant",
-    href: "https://ai-portfolio-chatbot-cyan.vercel.app",
-    info: "React, Tailwind CSS,Gemini API,TypeScript",
-    responsive: true,
-    img: lucyAI,
-  },
      {
     title: "Nexus SaaS",
     href: "https://lucy-oop.github.io/nexus-saas/",
