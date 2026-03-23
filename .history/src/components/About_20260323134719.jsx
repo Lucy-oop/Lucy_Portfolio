@@ -18,7 +18,7 @@ function About() {
 
 
   <p>
-    Welcome to my creative coding space. I’m a Junior Frontend Developer who currently lived in Bangkok, who enjoy turning ideas into responsive, interactive experiences and find real happiness in debugging and seeing my
+    Welcome to my creative coding space. I’m a Junior Frontend Developer who  who enjoy turning ideas into responsive, interactive experiences and find real happiness in debugging and seeing my
     code come to life.
   </p>
 
