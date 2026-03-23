@@ -31,7 +31,7 @@ function About() {
           </p>
 
             <div className="ctaRow">
-    <a className="ctaLink" href="projects#/projects">
+    <a className="ctaLink" href="/projects#projects">
       Explore my projects <span className="ctaIcon">↗</span>
     </a>
 
