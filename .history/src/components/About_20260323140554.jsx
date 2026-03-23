@@ -1,7 +1,7 @@
 import React from 'react'
 import Name from './Name.jsx'
 import resumePdf from './mini/Yeemonthant_resume.pdf'
-import { Link } from 'react-router-dom'
+import { Link}
 import './About.css'
 
 function About() {
@@ -32,9 +32,9 @@ function About() {
           </p>
 
             <div className="ctaRow">
-    <Link className="ctaLink" to="/projects">
+    <a className="ctaLink" href="projects#/projects">
       Explore my projects <span className="ctaIcon">↗</span>
-    </Link>
+    </a>
 
     <a className="ctaBtn" href={resumePdf} target="_blank" rel="noreferrer">
       Resume

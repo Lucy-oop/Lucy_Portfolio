@@ -32,9 +32,9 @@ function About() {
           </p>
 
             <div className="ctaRow">
-    <Link className="ctaLink" to="/projects">
+    <a className="ctaLink" href="projects#/projects">
       Explore my projects <span className="ctaIcon">↗</span>
-    </Link>
+    </a>
 
     <a className="ctaBtn" href={resumePdf} target="_blank" rel="noreferrer">
       Resume

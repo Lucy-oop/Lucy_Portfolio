@@ -32,7 +32,7 @@ function About() {
           </p>
 
             <div className="ctaRow">
-    <Link className="ctaLink" to="/projects">
+    <Link className="ctaLink" href="projects#/projects">
       Explore my projects <span className="ctaIcon">↗</span>
     </Link>
 
