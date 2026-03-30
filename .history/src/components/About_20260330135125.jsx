@@ -1,6 +1,6 @@
 import React from 'react'
 import Name from './Name.jsx'
-import resumePdf from './mini/Lucycv.pdf'
+import resumePdf from './mini/Lucy'
 import { Link } from 'react-router-dom'
 import './About.css'
 
